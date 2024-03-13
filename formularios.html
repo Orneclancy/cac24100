@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase4 + html + formulario </title>
+</head>
+<body>
+    <section>
+    <h1> Formularios</h1>
+    <form method="get">
+        <div>
+             <label for="nombre"> Nombre</label>
+             <input id="Nombre"
+                   name="Nombre">
+        </div>
+
+        <div>
+            <label>Edad</label>
+            <input type="number" 
+               min="0"
+               max="90"
+               value="38">
+               
+            </div>
+        </hr>
+        <br>
+        <div>
+            <label for=""></label>
+            <input 
+                  id="Fecha de nacimiento"
+                  value="2000-01-31" 
+                  type="date"
+                  name="fechade nacimiento">
+        <div>
+            <span>Turno</span>
+
+            <div>
+
+        <input type="radio" 
+               name="Turno"
+               value="Tarde"
+               checked>Tarde
+               
+               
+        <input type="radio" 
+               name="Turno"
+               value="manana"> Mañana
+            </div>
+        <div>
+            <label> Estudios:</label>
+            <span>  Primario</span>
+            <input type = "checkbox"
+                   name="Estudios"
+                   value="Pri"
+                   checked>
+                    
+            <span> Secundario</span>
+            <input type = "checkbox"
+                   name="Estudios"
+                   value="Sec">
+        </div>
+            
+            <div>
+                <label>Nacionaliad</label>
+                <select id="Nacionalidad"
+                        name="Nacionalidad">
+                    <option value="1">Arg</option>
+                    <option value="2" selected>Bra</option> 
+                    <option value="3"> uru</option>
+                    </select>
+                    </div>
+                    <hr>
+
+            <div>
+                <label for="datosadicionales"> Datos Adicionales</label>
+                <div>
+                <textarea id="Datos adicionales"
+                          name="Datos adicionales"
+                          cols="50" 
+                          rows="5">
+                        </textarea>
+                        <br>
+                
+                <button>
+                       Enviar</button>
+    
+    </form>
+    </section>
+    
+    
+    
+</body>
+</html>
