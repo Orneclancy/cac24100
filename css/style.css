@@ -1,3 +1,15 @@
-h1 {
-    color: tomato;
+.main{
+    background-image: url(/banner-bg.jpg);
+    background-size: cover;
+    width: 1000px;
+    height: 500px;
+}
+
+p{ 
+    font-size: 50px;
+}
+
+/*clase*/
+.parrafo{
+    color: red;
 }
